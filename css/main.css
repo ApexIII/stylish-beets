@@ -1,4 +1,4 @@
-html {
+Html {
   font-family: "PT Serif";
   background-color: #c9b5ab;
   line-height: 1.5;
@@ -24,11 +24,27 @@ a {
   list-style-type: none;
 }
 
+.lii:hover {
+  color: #8f2440;
+  font-size: 1.125rem;
+  text-decoration: underline;
+  font-weight: bold;
+  list-style-type: none;
+  font-family: "PT Sans";
+}
+
 .l {
   color: #8f2440;
   list-style-type: none;
   font-weight: bold;
   font-family: "PT Sans";
+}
+
+h2 {
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-size: 1.5rem;
+  list-style-type: none;
 }
 
 .p1 {
@@ -107,20 +123,4 @@ a:hover {
   text-decoration: underline;
   font-weight: normal;
   list-style-type: none;
-}
-
-h2 {
-  font-family: "PT Sans";
-  font-weight: bold;
-  font-size: 1.5rem;
-  list-style-type: none;
-}
-
-.lii:hover {
-  color: #8f2440;
-  font-size: 1.125rem;
-  text-decoration: underline;
-  font-weight: bold;
-  list-style-type: none;
-  font-family: "PT Sans";
 }
